@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
         catch(err){imagen2.push("https://www.wordans.ca/wvc-1332825671/wordansfiles/images/2012/3/27/133476/133476_340.jpg")}
 
         var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-        $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+        $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
       };
     }
   });
