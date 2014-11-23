@@ -12,7 +12,8 @@ div {
 	color : #ffffff;
 	border: 0;
 	top:0;
-	height: 213px;
+	/*
+	height: 213px;*/
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.6);
 	margin-top: 1px;
