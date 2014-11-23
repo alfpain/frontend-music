@@ -35,14 +35,37 @@ jQuery(document).ready(function($) {
 
         var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
         $(".TopList").append(
-		"<div class='name span10'>"+
-				"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
-				"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
-				"<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
-				"<img src=\""+imagen2[i]+"\" class = 'imagen2>"+
-				"<div class = 'range'>"+(i+1)+"</div>"+
-				"<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
-		"</div>" );
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
+
+
       };
     }
   });
@@ -101,7 +124,36 @@ $(document).ready(function() {
 
     for (var i = 0; i <50; i++) {
         var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-        $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+         $(".TopList").append(
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
     };
   });
 
@@ -113,7 +165,36 @@ $(document).ready(function() {
       for (var i = 0; i <50; i++) {
         if (OrderList[x] === name2[i]) {
           var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-          $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+           $(".TopList").append(
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
         };
       };
     };
@@ -127,7 +208,36 @@ $(document).ready(function() {
       for (var i = 0; i <50; i++) {
         if (OrderList[x] === name2[i]) {
           var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-          $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+           $(".TopList").append(
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
         };
       };
     };
@@ -140,7 +250,36 @@ $(document).ready(function() {
       for (var i = 0; i <50; i++) {
         if (OrderDuration[x] === duration2[i]) {
           var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-          $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+           $(".TopList").append(
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
         };
       };
     };
@@ -153,7 +292,36 @@ $(document).ready(function() {
       for (var i = 0; i <50; i++) {
         if (OrderDuration[x] === duration2[i]) {
           var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-          $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+           $(".TopList").append(
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
         };
       };
     };
@@ -166,7 +334,36 @@ $(document).ready(function() {
       for (var i = 0; i <50; i++) {
         if (OrderPlayCount[x] === playcount2[i]) {
           var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-          $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+           $(".TopList").append(
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
         };
       };
     };
@@ -179,7 +376,36 @@ $(document).ready(function() {
       for (var i = 0; i <50; i++) {
         if (OrderPlayCount[x] === playcount2[i]) {
           var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png"
-          $(".TopList").append("<div class=\"name\">"+"<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+"<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+ "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+"<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+"<div class = 'range'>"+(i+1)+"</div>"+"<a href =\""+ListenSong2+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+"</div>" );
+           $(".TopList").append(
+          "<div class= 'row'>" +
+            "<div class = 'span12'>"+
+              "<div class = 'row'>"+
+                "<div class = 'span2'>" +
+                  "<div class = 'range'>"+(i+1)+"</div>"+
+                "</div>"+
+                "<div class='span10'>"+
+                  "<div class = 'row'>"+
+                        "<div class='name'>"+ 
+                          "<div class = 'row'>"+
+                              "<div class = 'span2'>" +
+                                "<img src=\""+imagen2[i]+"\" class = 'imagen2'>"+
+                              "</div>"+ 
+                              "<div class = 'span6'>"+                          
+                            "<h3>"+name2[i]+" - "+artis2[i]+"</h3>"+
+                              "<p>"+"Duration: "+(duration2[i]/60).toFixed(2)+" Listeners: "+listeners2[i]+" playcount: "+playcount2[i]+"</p>"+
+                              "<p>"+"<a href=\""+Biography2[i]+"\" style= 'color: #ffffff' >"+" Biography Artist "+"</a>"+"</p>"+
+                              "</div>"+
+                              "<div class = 'span2'>"+
+                                "<a href =\""+ListenSong2[i]+"\">"+"<img src=\""+play+"\" class = 'play2'>"+"</a>"+
+                              "</div>"+
+                         
+                          "</div>" +
+                        "</div>"+
+                  "</div>"+  
+                "</div>"+
+              "</div>"+
+            '</div>'+
+          '</div>');
         };
       };
     };
