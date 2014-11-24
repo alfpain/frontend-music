@@ -17,6 +17,7 @@ div {
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.6);
 	margin-top: 1px;
+	border-radius:20px;
 }
 
 .Title{
@@ -30,10 +31,10 @@ div {
 /*	height: 120;
 	width: 900;*/
 	text-align: center;
-	margin: 10px 10px 10px 10px;
+	margin: 20px 10px 10px 50px;
 	color : #ffffff;
 	border-style: groove;
-	border-radius: 10px;
+	border-radius: 20px;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.6);
 }
@@ -46,8 +47,8 @@ div {
 
 .play2 {
 	height: 100px;
-	width: auto;
-	/*margin: -100px 10px 10px 650px;*/
+	width: auto;/*
+	margin: 20px 10px 10px -100px;*/
 }
 
 .range {
@@ -56,20 +57,16 @@ div {
 	width: auto;*/
 	text-align: inherit;
 	font-size: 50px;
-	margin: 20px 20px 20px 20px;
+	/*
+	margin: 20px 20px 20px 20px;*/
 	color : #ffffff;
 	border-style: groove;
-	border-radius: 10px;
+	border-radius: 20px;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.6);
 }
 
 button {
-	height: 60px;
-	width: 150px;
-	-moz-box-shadow: 1px 1px 1px 1px #1c1b18;
-	-webkit-box-shadow: 1px 1px 1px 1px #1c1b18;
-	box-shadow: 1px 1px 1px 1px #1c1b18;
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
 	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
 	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
@@ -78,21 +75,19 @@ button {
 	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
 	background-color:#eae0c2;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
-	border-radius:15px;
-	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:20px;
+	border:1px solid #333029;
 	display:inline-block;
 	cursor:pointer;
 	color:#505739;
 	font-family:arial;
-	font-size:14px;
-	font-weight:bold;
-	
+	font-size:15px;
+	padding:9px 23px;
 	text-decoration:none;
-	text-shadow:1px 1px 1px #ffffff;
+	
 }
-
 button:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
 	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
@@ -103,7 +98,6 @@ button:hover {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
 	background-color:#ccc2a6;
 }
-
 button:active {
 	position:relative;
 	top:1px;
